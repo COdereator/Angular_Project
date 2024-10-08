@@ -1,15 +1,29 @@
 .main{
-    height: 115vh;
+    height: 100vh;
     width: 90%;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     margin: auto;
     color: white;
+    background-image: url(https://scontent.fknu1-4.fna.fbcdn.net/v/t1.6435-9/94376324_101233868242854_3780235793654611968_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hVKsHT6etFoQ7kNvgH7TcU4&_nc_ht=scontent.fknu1-4.fna&_nc_gid=AKoxXB746iPkgxZ9snhFCf0&oh=00_AYAnO_NObM7c0wyo54yC50j6GT5byfO4hw4Si-G2g7LWEQ&oe=6729C1ED);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main::after{
+    content : '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 95%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 .cont {
     height: 85vh;
     width: 90%;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     margin: auto;
     color: white;
@@ -17,29 +31,35 @@
 .left{
     height: 100%;
     width: 45%;
-    background-color: #A6180D;
+    /* background-color: #A6180D; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 2.4rem;
+    z-index: 2;
 }
 .right{
     height: 100%;
     width: 55%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 .right img{
     height: 100%;
     width: 100%;
 }
+.left h1{
+    text-shadow:2px 2px 3px black;
+}
 .left p{
     font-size: 4.4rem;
+    text-shadow:2px 2px 3px black;
     font-weight: lighter;
 }
 .left a{
+    text-shadow:2px 2px 3px black;
     position: relative;
-    right: 140px;
+    right: 0px;
     top: 30px;
     color: white;
     font-weight: bold;

@@ -12,12 +12,12 @@ import { CardComponent } from '../card/card.component';
 })
 export class MainComponent {
 
-  school = "Stanford Elementary"
+  school = "Kamlapati S.L.V Inter College "
 
   cardData = [
     {
       h1 : "Admission",
-      p : "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.",
+      p : "Explore our admissions page to learn about our programs, application process, and discover how to join our vibrant school community",
       a : "Enroll Today",
       bgcolor : "#D43C2B",
       bgImage : ""
@@ -27,7 +27,7 @@ export class MainComponent {
       p : "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.",
       a : "View Programs",
       bgcolor : "",
-      bgImage : "https://static.wixstatic.com/media/2feeec_8d2ef31d73af4fbbbdd908fbfed2863f~mv2.jpg/v1/fill/w_408,h_542,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2feeec_8d2ef31d73af4fbbbdd908fbfed2863f~mv2.jpg"
+      bgImage : "./assets/image2.png"
     },
     {
       h1 : "Latest News & Events",
@@ -41,7 +41,7 @@ export class MainComponent {
       p : "",
       a : "",
       bgcolor : "",
-      bgImage : "https://static.wixstatic.com/media/2feeec_191fcb6eb4fa4bcfa9c0ed351f0c7fbe~mv2.jpg/v1/fill/w_434,h_542,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2feeec_191fcb6eb4fa4bcfa9c0ed351f0c7fbe~mv2.jpg"
+      bgImage : "./assets/image.png"
     },
     {
       h1 : "For the Parents",
@@ -55,7 +55,7 @@ export class MainComponent {
       p : "",
       a : "",
       bgcolor : "",
-      bgImage : "https://static.wixstatic.com/media/2feeec_309ff0131c4f45719d04228b68e9caba~mv2.jpg/v1/fill/w_409,h_542,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2feeec_309ff0131c4f45719d04228b68e9caba~mv2.jpg"
+      bgImage : "./assets/image3.png"
     },
   ]
 

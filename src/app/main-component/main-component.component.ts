@@ -9,5 +9,5 @@ import { SectionComponent } from "../section/section.component";
   styleUrl: './main-component.component.css'
 })
 export class MainComponentComponent {
-  path = "https://static.wixstatic.com/media/2feeec_05ee2afbcf06479195c1b99e65872828~mv2.jpg/v1/crop/x_0,y_26,w_5704,h_3757/fill/w_470,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-1254621168.jpg"
+  path = "https://scontent.fknu1-1.fna.fbcdn.net/v/t1.6435-9/94387682_101233634909544_8925360413852303360_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AxOngdzns1gQ7kNvgGTAlVd&_nc_ht=scontent.fknu1-1.fna&_nc_gid=AVQVDfRdSC9SOvcIBtEUdNo&oh=00_AYC3u8pXmMuAHm_9GA0YHRJVZRtNau5k5Y34lSS82bqssw&oe=6729A492"
 }
